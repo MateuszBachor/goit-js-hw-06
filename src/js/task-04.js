@@ -3,7 +3,7 @@ let counterValue =0;
 let value = document.querySelector("#value")
 
 button.addEventListener("click", () => {
-  console.log(counterValue )
+
   counterValue --;
   value.textContent = counterValue;
 });
